@@ -1,11 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Playfair+Display&display=swap');
-:root {
-    --img1: url("/static/images/suzume.jpeg");
-    --img2: url("/static/images/fate.jpeg");
-    --img3: url("/static/images/eightysix.webp");
-    --img4: url("/static/images/sao.jpeg");
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -29,19 +22,6 @@ body {
     align-items: center;
     box-shadow: 5px 0 10px 0 #333 inset;
 }
-.image-container:nth-child(1) {
-    background-image: var(--img1);
-}
-.image-container:nth-child(2) {
-    background-image: var(--img2);
-}
-.image-container:nth-child(3) {
-    background-image: var(--img3);
-}
-.image-container:nth-child(4) {
-    background-image: var(--img4);
-}
-
 .text-box {
     position: absolute;
     top: 80%;
